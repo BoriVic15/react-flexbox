@@ -1,0 +1,50 @@
+.container_flex{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: bisque;
+    align-items: start;
+    justify-content: space-evenly;
+}
+.link1{
+    background-color: rgb(142, 84, 84);
+    width: fit-content;
+    color: rgb(207, 193, 193);
+    align-items: center;
+    justify-items: center;
+}
+.grid_container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    height: 500px;
+    grid-gap: 2px;
+}
+.grid_container > h2 { 
+    margin: 0;
+    padding: 0;
+}
+.grid1 {
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.grid2 {
+    background-color: papayawhip;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.grid3 {
+    background-color: rgb(128, 30, 0);
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.grid4 {
+    background-color: purple;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
